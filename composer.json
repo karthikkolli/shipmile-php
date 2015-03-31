@@ -1,0 +1,34 @@
+{
+  "name": "shipmile/shipmile-php",
+  "version": "1.0.0",
+  "description": "Official Shipmile API library client for PHP",
+  "homepage": "https://www.shipmile.com",
+  "authors": [
+    {
+      "name": "Karthik Kolli",
+      "email": "karthik@shipmile.com",
+      "homepage": "http://www.shipmile.com"
+    }
+  ],
+  "keywords": ["shipmile", "ecommerce", "logistics", "api", "client", "library"],
+  "autoload": {
+    "psr-4": {
+      "Shipmile\\": "lib/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "satooshi/php-coveralls": "~0.6.1",
+    "squizlabs/php_codesniffer": "~2.0"
+  },
+  "support": {
+    "issues": "https://github.com/shipmile/shipmile-php/issues"
+  },
+  "license": "MIT"
+}
